@@ -15,4 +15,3 @@ Every push to main runs .github/workflows/android-apk.yml. Open the repository's
 1. Supabase dashboard, Edge Functions, create a function named `ai`, paste `supabase/functions/ai/index.ts`, deploy.
 2. Edge Functions, Secrets: add `OPENAI_API_KEY` (and optionally `OPENAI_MODEL`, `AI_DAILY_LIMIT`). The key never enters GitHub or the website.
 3. Run `database/migrations/006_ai_usage.sql`.
-
